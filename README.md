@@ -3,7 +3,9 @@
 Este repositorio está compuesto por una serie de **pequeños proyectos SwiftUI** relacionados con el programa de aprendizaje de Paul Hudson llamado **100 días de SwiftUI**,
 del cual tambien hay un repositorio que encontrará aquí:  [100 días de SwiftUI](https://github.com/ManuelCBR/100-Days-of-Swift-UI-Paul-Hudson)
 
-📌 El objetivo es recopilar aqui de una forma más descriptiva y visual todos los proyectos del programa explicando de qué tratan en sus respectivos Readme.md
+📌 El objetivo es recopilar aquí de una forma más descriptiva y visual todos los proyectos del programa explicando de qué tratan en sus respectivos Readme.md
+
+📌 En cada proyecto encontraremos dos apps, la primera, que nos mostrará la aplicación del aprendizaje, y la segunda que será el reto propuesto para ampliarla.
 
 ## 💻 Proyectos
 
