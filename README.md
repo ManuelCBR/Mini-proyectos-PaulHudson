@@ -9,6 +9,6 @@ del cual tambien hay un repositorio que encontrará aquí:  [100 días de SwiftU
 
 ## 💻 Proyectos
 
-1. [WeSplit]() - Aplicación para dividir cuentas conjuntas entre comensales.
+1. [WeSplit](https://github.com/ManuelCBR/Mini-proyectos-PaulHudson/tree/main/Proyecto%201) - Aplicación para dividir cuentas conjuntas entre comensales.
 
 *(Se irán agregando más proyectos hasta completar los 19 del programa).* 
