@@ -22,7 +22,7 @@ En el último apartado nos arrojará el importe total a pagar cada usuario
 Y el resultado: ⬇️
 
 <p align="center">
-    <img src="RetoWeSplit.jpeg" alt="Captura de pantalla de aplicación RetoWeSplit" width="200" style="border-radius: 35px;">
+    <img src="RetoWeSplit.png" alt="Captura de pantalla de aplicación RetoWeSplit" width="200" style="border-radius: 35px;">
 </p>
 
 ## 📌 Créditos
