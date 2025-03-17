@@ -10,5 +10,7 @@ del cual tambien hay un repositorio que encontrará aquí:  [100 días de SwiftU
 ## 💻 Proyectos
 
 1. [WeSplit](https://github.com/ManuelCBR/Mini-proyectos-PaulHudson/tree/main/Proyecto%201) - Aplicación para dividir cuentas conjuntas entre comensales.
+2. [GuessTheFlag](https://github.com/ManuelCBR/Mini-proyectos-PaulHudson/tree/main/Proyecto%202) - Juego para adivinar banderas de Paises.
+
 
 *(Se irán agregando más proyectos hasta completar los 19 del programa).* 
