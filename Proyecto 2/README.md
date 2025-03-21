@@ -15,11 +15,24 @@ El usuario deberá seleccionar la correcta. Al elegir una bandera, se mostrará 
 
 ✏️ Las modificaciones en este caso son las siguientes:  
 
-In progress... 
+1️⃣ Añadir una propiedad @State para almacenar la puntuación del usuario, modifícala cuando acierta o se equivoca y muéstrala en la alerta y en la etiqueta de puntuación.    
+2️⃣ Cuando alguien elija la bandera equivocada, indicar su error en el mensaje de alerta; por ejemplo, algo como "¡Incorrecto! Esa es la bandera de Francia".  
+3️⃣ Hacer que el juego muestre solo 8 preguntas; en ese momento, verá una alerta final que evalúa su puntuación y podrá reiniciar el juego.  
 
 Y el resultado: ⬇️
 
-In progress...
+<table align="center">
+    <tr>
+        <td><img src="RetoGuessTheFlag1.png" width="200"></td>
+        <td width="50">
+        <td><img src="RetoGuessTheFlag2.png" width="200"></td>
+    </tr>
+    <tr>
+        <td><img src="RetoGuessTheFlag3.png" width="200"></td>
+        <td width="50">
+        <td><img src="RetoGuessTheFlag4.png" width="200"></td>
+    </tr>
+</table>
 
 ## 📌 Créditos
 ‼️ Este proyecto es parte del programa [100 días de SwiftUI](https://www.hackingwithswift.com/100/swiftui) de Paul Hudson, en la plataforma [Hacking with Swift](https://www.hackingwithswift.com) ‼️
