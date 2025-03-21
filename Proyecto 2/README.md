@@ -21,18 +21,16 @@ El usuario deberá seleccionar la correcta. Al elegir una bandera, se mostrará 
 
 Y el resultado: ⬇️
 
-<table align="center">
-    <tr>
-        <td><img src="RetoGuessTheFlag1.png" width="200"></td>
-        <td width="50">
-        <td><img src="RetoGuessTheFlag2.png" width="200"></td>
-    </tr>
-    <tr>
-        <td><img src="RetoGuessTheFlag3.png" width="200"></td>
-        <td width="50">
-        <td><img src="RetoGuessTheFlag4.png" width="200"></td>
-    </tr>
-</table>
+<p align="center">
+  <img src="RetoGuessTheFlag1.png" width="203">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="RetoGuessTheFlag2.png" width="200">
+</p>
+<p align="center">
+  <img src="RetoGuessTheFlag3.png" width="200" >
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="RetoGuessTheFlag4.png" width="200">
+</p>
 
 ## 📌 Créditos
 ‼️ Este proyecto es parte del programa [100 días de SwiftUI](https://www.hackingwithswift.com/100/swiftui) de Paul Hudson, en la plataforma [Hacking with Swift](https://www.hackingwithswift.com) ‼️
