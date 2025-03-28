@@ -1,29 +1,38 @@
 //
 //  ContentView.swift
-//  RetoGuessTheFlag
+//  Reto2ViewsAndModifiers
 //
-//  Created by Manuel Bermudo on 17/3/25.
+//  Created by Manuel Bermudo on 28/3/25.
 //
 
 import SwiftUI
 
-/*
-1. Add an @State property to store the user’s score, modify it when they get an answer right or wrong, then display it in the alert and in the score label.
-2. When someone chooses the wrong flag, tell them their mistake in your alert message – something like “Wrong! That’s the flag of France,” for example.
-3. Make the game show only 8 questions, at which point they see a final alert judging their score and can restart the game.
-*/
+/**
+ Go back to project 2 and replace the Image view used for flags with a new FlagImage() view that renders one flag image using the specific set of modifiers
+ */
+
+//Reto
+struct FlagImage: View {
+    
+    var image: String
+    
+    var body: some View {
+
+        Image(image)
+            .clipShape(.rect(cornerRadius: 20))
+            .shadow(radius: 5)
+    }
+}
 
 struct ContentView: View {
-    
     @State private var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Spain", "UK", "Ukraine", "US"].shuffled()
     @State private var correctAnswer = Int.random(in: 0...2)
     
     @State private var showingScore = false
     @State private var scoreTitle = ""
     
-    //Reto 1
     @State private var score = 0
-    //Reto 3
+
     @State private var counterQuestion = 1
     @State private var showingFinalScoreAlert = false
     
@@ -37,9 +46,10 @@ struct ContentView: View {
             
             VStack {
                 Spacer()
-                Text("Guess the flag")
+                Text("ViewsAndModifiers Reto 2")
                     .font(.largeTitle.bold())
                     .foregroundStyle(.white)
+                    .multilineTextAlignment(.center)
                 VStack(spacing: 30) {
                     VStack{
                         Text("Tap the flag of")
@@ -52,9 +62,8 @@ struct ContentView: View {
                         Button {
                             flagTapped(number)
                         } label: {
-                            Image(countries[number])
-                                .clipShape(.rect(cornerRadius: 20))
-                                .shadow(radius: 5)
+                            //Reto
+                            FlagImage(image: countries[number])
                         }
                     }
                 }
@@ -74,7 +83,6 @@ struct ContentView: View {
                             .fill(.regularMaterial)
                     )
                     
-                
                 Spacer()
             }
             .padding()
