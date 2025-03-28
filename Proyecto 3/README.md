@@ -20,11 +20,13 @@ Primer proyecto técnico del programa de Paul Hudson sobre dos componentes de Sw
 Y el resultado: ⬇️
 
 <p align="center">
+
   <img src="RetoViewsAndModifiers1.png" width="203">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="RetoViewsAndModifiers2.png" width="203">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="RetoViewsAndModifiers3.png" width="203">
+  
 </p>
 
 ## 📌 Créditos
