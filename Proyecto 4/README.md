@@ -1,13 +1,22 @@
-# Guess the Flag
+# Better Rest
 
-Pequeño juego educativo para aprender y adivinar banderas de países. Diseñado para mejorar el conocimiento de geografía de manera interactiva y divertida.
+☕️ Aplicación diseñada para ayudar a los amantes del café a dormir mejor, haciendo solo tres preguntas clave que veremos en las funcionalidades.  
+🎯 El objetivo principal, desde el punto de vista del desarrollador, es aprender a entrenar modelos de aprendizaje automático capaces de realizar predicciones personalizadas.  
+🧠 Esto es posible gracias a **Core ML**, la tecnología de Apple que permite integrar modelos de machine learning directamente en dispositivos iOS.  
+💻 Los modelos se entrenan previamente en un Mac y luego se ejecutan dentro de la app, todo de forma local, garantizando así la privacidad del usuario.  
+⚠️ **Advertencia** ⚠️  
+Esta aplicación no tiene base médica ni científica.  
+Los datos y predicciones que ofrece son únicamente de carácter demostrativo, con el propósito de mostrar el funcionamiento de modelos de aprendizaje automático integrados en una app.  
+**No deben utilizarse como orientación médica ni para tomar decisiones relacionadas con la salud.**
 
 ## 📱 Funcionalidades
-➡️ El juego muestra el nombre de un país sobre tres opciones de banderas disponible.  
-El usuario deberá seleccionar la correcta. Al elegir una bandera, se mostrará un mensaje indicando si la respuesta ha sido correcta o incorrecta.
+➡️ La app permite saber al usuario a qué hora debería ir a dormir para tener un buen descanso en función a los cafés que haya tomado en el día, haciéndote tres preguntas:  
+1. ¿A qué hora quiere despertarse?
+2. ¿Cuántas horas quieres dormir?  
+3. ¿Cuántas tazas de café toma al día?  
 
 <p align="center">
-    <img src="GuessTheFlag.png" alt="Captura de pantalla de aplicación WeSplit" width="200" style="border-radius: 35px;">
+    <img src="BetterRest.png" alt="Captura de pantalla de aplicación WeSplit" width="200" style="border-radius: 35px;">
 </p>
 
 ## 🎯 Reto
@@ -15,22 +24,17 @@ El usuario deberá seleccionar la correcta. Al elegir una bandera, se mostrará 
 
 ✏️ Las modificaciones en este caso son las siguientes:  
 
-1️⃣ Añadir una propiedad @State para almacenar la puntuación del usuario, modifícala cuando acierta o se equivoca y muéstrala en la alerta y en la etiqueta de puntuación.    
-2️⃣ Cuando alguien elija la bandera equivocada, indicar su error en el mensaje de alerta; por ejemplo, algo como "¡Incorrecto! Esa es la bandera de Francia".  
-3️⃣ Hacer que el juego muestre solo 8 preguntas; en ese momento, verá una alerta final que evalúa su puntuación y podrá reiniciar el juego.  
+1️⃣ Reemplaza cada VStack de nuestro formulario con una Sección, donde la vista de texto es el título de la sección.    
+2️⃣ Reemplaca el Stepper “Número de tazas” con un Picker que muestre el mismo rango de valores.  
+3️⃣ Modifiqua la interfaz de usuario para que siempre muestre la hora de dormir recomendada con una fuente grande y atractiva. Debería poder eliminar por completo el botón "Calcular".  
 
-Y el resultado: ⬇️
+Y el resultado: ⬇️  
 
+(IN PROGRESS)
 <p align="center">
-  <img src="RetoGuessTheFlag1.png" width="203">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="RetoGuessTheFlag2.png" width="200">
+  <img src="RetoBetterRest.png" width="203">
 </p>
-<p align="center">
-  <img src="RetoGuessTheFlag3.png" width="200" >
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="RetoGuessTheFlag4.png" width="200">
-</p>
+
 
 ## 📌 Créditos
 ‼️ Este proyecto es parte del programa [100 días de SwiftUI](https://www.hackingwithswift.com/100/swiftui) de Paul Hudson, en la plataforma [Hacking with Swift](https://www.hackingwithswift.com) ‼️
