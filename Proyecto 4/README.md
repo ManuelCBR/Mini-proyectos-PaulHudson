@@ -1,6 +1,6 @@
 # Better Rest
 
-☕️ Aplicación diseñada para ayudar a los amantes del café a dormir mejor, haciendo solo tres preguntas clave que veremos en las funcionalidades.  
+☕️ Aplicación diseñada para ayudar a los amantes del café a dormir mejor, haciendo sólo tres preguntas clave que veremos en las funcionalidades.  
 
 🎯 El objetivo principal, desde el punto de vista del desarrollador, es aprender a entrenar modelos de aprendizaje automático capaces de realizar predicciones personalizadas.  
 
@@ -14,9 +14,9 @@ Los datos y predicciones que ofrece son únicamente de carácter demostrativo, c
 **No deben utilizarse como orientación médica ni para tomar decisiones relacionadas con la salud.**
 
 ## 📱 Funcionalidades
-➡️ La app permite saber al usuario a qué hora debería ir a dormir para tener un buen descanso en función a los cafés que haya tomado en el día, haciéndote tres preguntas:  
+➡️ La app permite saber al usuario a qué hora debería ir a dormir para tener un buen descanso en función a los cafés que haya tomado en el día, haciéndole tres preguntas:  
 1. ¿A qué hora quiere despertarse?
-2. ¿Cuántas horas quieres dormir?  
+2. ¿Cuántas horas quiere dormir?  
 3. ¿Cuántas tazas de café toma al día?  
 
 <p align="center">
@@ -29,8 +29,8 @@ Los datos y predicciones que ofrece son únicamente de carácter demostrativo, c
 ✏️ Las modificaciones en este caso son las siguientes:  
 
 1️⃣ Reemplaza cada VStack de nuestro formulario con una Sección, donde la vista de texto es el título de la sección.    
-2️⃣ Reemplaca el Stepper “Número de tazas” con un Picker que muestre el mismo rango de valores.  
-3️⃣ Modifiqua la interfaz de usuario para que siempre muestre la hora de dormir recomendada con una fuente grande y atractiva. Debería poder eliminar por completo el botón "Calcular".  
+2️⃣ Reemplaza el Stepper “Número de tazas” con un Picker que muestre el mismo rango de valores.  
+3️⃣ Modifica la interfaz de usuario para que siempre muestre la hora de dormir recomendada con una fuente grande y atractiva y elmina el botón "Calcular".  
 
 Y el resultado: ⬇️  
 
