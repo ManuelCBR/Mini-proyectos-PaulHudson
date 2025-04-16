@@ -7,7 +7,7 @@ Pequeño juego educativo para aprender y adivinar banderas de países. Diseñado
 El usuario deberá seleccionar la correcta. Al elegir una bandera, se mostrará un mensaje indicando si la respuesta ha sido correcta o incorrecta.
 
 <p align="center">
-    <img src="GuessTheFlag.png" alt="Captura de pantalla de aplicación WeSplit" width="200" style="border-radius: 35px;">
+    <img src="GuessTheFlag.png" alt="Captura de pantalla de aplicación GuessTheFlag" width="200" style="border-radius: 35px;">
 </p>
 
 ## 🎯 Reto
@@ -22,14 +22,14 @@ El usuario deberá seleccionar la correcta. Al elegir una bandera, se mostrará 
 Y el resultado: ⬇️
 
 <p align="center">
-  <img src="RetoGuessTheFlag1.png" width="203">
+  <img src="RetoGuessTheFlag1.png" alt="Captura de pantalla de aplicación RetoGuessTheFlag" width="203">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="RetoGuessTheFlag2.png" width="200">
+  <img src="RetoGuessTheFlag2.png" alt="Captura de pantalla de aplicación RetoGuessTheFlag" width="200">
 </p>
 <p align="center">
-  <img src="RetoGuessTheFlag3.png" width="200" >
+  <img src="RetoGuessTheFlag3.png" alt="Captura de pantalla de aplicación RetoGuessTheFlag" width="200" >
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="RetoGuessTheFlag4.png" width="200">
+  <img src="RetoGuessTheFlag4.png" alt="Captura de pantalla de aplicación RetoGuessTheFlag" width="200">
 </p>
 
 ## 📌 Créditos

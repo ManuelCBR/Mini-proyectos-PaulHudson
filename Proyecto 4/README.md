@@ -20,7 +20,7 @@ Los datos y predicciones que ofrece son únicamente de carácter demostrativo, c
 3. ¿Cuántas tazas de café toma al día?  
 
 <p align="center">
-    <img src="BetterRest.png" alt="Captura de pantalla de aplicación WeSplit" width="200" style="border-radius: 35px;">
+    <img src="BetterRest.png" alt="Captura de pantalla de aplicación BetterRest" width="200" style="border-radius: 35px;">
 </p>
 
 ## 🎯 Reto
@@ -35,7 +35,7 @@ Los datos y predicciones que ofrece son únicamente de carácter demostrativo, c
 Y el resultado: ⬇️  
 
 <p align="center">
-  <img src="RetoBetterRest.png" width="203">
+  <img src="RetoBetterRest.png" alt="Captura de pantalla de aplicación RetoBetterRest" width="203">
 </p>
 
 

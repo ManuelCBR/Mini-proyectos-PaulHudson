@@ -21,11 +21,11 @@ Y el resultado: ⬇️
 
 <p align="center">
 
-  <img src="RetoViewsAndModifiers1.png" width="203">
+  <img src="RetoViewsAndModifiers1.png" alt="Captura de pantalla de aplicación RetoViewsAndModifiers1" width="203">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="RetoViewsAndModifiers2.png" width="203">
+  <img src="RetoViewsAndModifiers2.png" alt="Captura de pantalla de aplicación RetoViewsAndModifiers2" width="203">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="RetoViewsAndModifiers3.png" width="203">
+  <img src="RetoViewsAndModifiers3.png" alt="Captura de pantalla de aplicación RetoViewsAndModifiers3" width="203">
   
 </p>
 
