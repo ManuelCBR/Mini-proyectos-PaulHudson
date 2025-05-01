@@ -16,6 +16,6 @@ del cual tambien hay un repositorio que encontrará aquí:  [100 días de SwiftU
 5. [BetterRest](https://github.com/ManuelCBR/Mini-proyectos-PaulHudson/tree/main/Proyecto%204) - Aplicación para ayudar a los amantes del café a dormir mejor por las noches.  
 6. [WordScramble](https://github.com/ManuelCBR/Mini-proyectos-PaulHudson/tree/main/Proyecto%205) - Juego de crear palabras.  
 7. [Animations](https://github.com/ManuelCBR/Mini-proyectos-PaulHudson/tree/main/Proyecto%206) - Juego de adivinar banderas con animaciones.
-8. [Multiplications](https://github.com/ManuelCBR/Mini-proyectos-PaulHudson/tree/main/Proyecto%206) - Juego para niños para que practiquen las multiplicaciones.
+8. [Multiplications](https://github.com/ManuelCBR/Mini-proyectos-PaulHudson/tree/main/Proyecto%20Milestone%202) - Juego para niños para que practiquen las multiplicaciones.
 
 *(Se irán agregando más proyectos hasta completar los 19 del programa).* 
