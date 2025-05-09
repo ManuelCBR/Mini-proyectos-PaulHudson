@@ -20,8 +20,6 @@ Estos gastos serán añadidos a una lista que se visualizará en la pantalla pri
 
 ✏️ Las modificaciones en este caso son las siguientes:  
 
-Volver al proyecto "Guess de Flag" y añadir algunas animaciones:
-
 1️⃣ Usar la moneda preferida del usuario, en lugar de usar siempre dólares estadounidenses.  
 2️⃣ Modificar los importes de gastos para que incluyan estilos según su valor: los gastos inferiores a 10€ deben tener un estilo, los inferiores a 100€ otro y los superiores a 100€ un tercer estilo.  
 3️⃣ Dividir la lista de gastos en dos secciones: una para gastos personales y otra para gastos de empresa.  
