@@ -18,5 +18,5 @@ del cual tambien hay un repositorio que encontrará aquí:  [100 días de SwiftU
 7. [Animations](https://github.com/ManuelCBR/Mini-proyectos-PaulHudson/tree/main/Proyecto%206) - Juego de adivinar banderas con animaciones.
 8. [Multiplications](https://github.com/ManuelCBR/Mini-proyectos-PaulHudson/tree/main/Proyecto%20Milestone%202) - Juego para niños para que practiquen las multiplicaciones.
 9. [iExpense](https://github.com/ManuelCBR/Mini-proyectos-PaulHudson/tree/main/Proyecto%207) - Aplicación para anotar gastos personales o de empresa.  
-9. [MoonShot](https://github.com/ManuelCBR/Mini-proyectos-PaulHudson/tree/main/Proyecto%208) - Aplicación para aprender sobre las misiones Apollo de la NASA.  
+9. [MoonShot](https://github.com/ManuelCBR/Mini-proyectos-PaulHudson/tree/main/Proyecto%208) - Aplicación educativa para aprender sobre las misiones Apollo de la NASA.  
 *(Se irán agregando más proyectos hasta completar los 19 del programa).* 
