@@ -21,7 +21,7 @@ Aplicación que nos permite aprender sobre las misiones Apollo de la NASA y sus 
 Y el resultado: ⬇️  
 
 <p align="center">
-  <img src="RetoMoonShot.gif" width="203">
+  <img src="RetoMoonshot.gif" width="203">
 </p>
 
 
