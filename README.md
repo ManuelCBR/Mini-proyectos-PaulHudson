@@ -21,5 +21,6 @@ del cual tambien hay un repositorio que encontrará aquí:  [100 días de SwiftU
 10. [MoonShot](https://github.com/ManuelCBR/Mini-proyectos-PaulHudson/tree/main/Proyecto%208) - Aplicación educativa para aprender sobre las misiones Apollo de la NASA.  
 11. [Navigation](https://github.com/ManuelCBR/Mini-proyectos-PaulHudson/tree/main/Proyecto%209) - Ejercicio para aprender sobre NavigationLink, NavigationPath, etc.  
 12. [Habit tracking](https://github.com/ManuelCBR/Mini-proyectos-PaulHudson/tree/main/Proyecto%20Milestone%203) - Aplicación de seguimiento de hábitos.  
+13. [CupcakeCorner](https://github.com/ManuelCBR/Mini-proyectos-PaulHudson/tree/main/Proyecto%210) - Aplicación de compra de pastelitos.  
 
 *(Se irán agregando más proyectos hasta completar los 19 del programa).* 
