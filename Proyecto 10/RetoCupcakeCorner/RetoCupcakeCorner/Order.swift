@@ -7,6 +7,14 @@
 
 import Foundation
 
+//Reto 1
+extension String {
+    var isValidField: Bool {
+        let trimmedString = self.trimmingCharacters(in: .whitespacesAndNewlines)
+        return !trimmedString.isEmpty
+    }
+}
+
 @Observable
 class Order: Codable {
     enum CodingKeys: String, CodingKey {
@@ -46,6 +54,11 @@ class Order: Codable {
             return false
         }
         
+        //Reto 1
+        if !name.isValidField || !streetAdress.isValidField || !city.isValidField || !zip.isValidField {
+            return false
+        }
+        
         return true
     }
     
@@ -66,6 +79,20 @@ class Order: Codable {
         }
         
         return cost
+    }
+    
+    //Reto 3
+    func saveUserOrder (){
+        UserDefaults.standard.set(name, forKey: "name")
+        UserDefaults.standard.set(streetAdress, forKey: "streetAddress")
+        UserDefaults.standard.set(city, forKey: "city")
+        UserDefaults.standard.set(zip, forKey: "zip")
+    }
+    func loadUserOrder (){
+        name = UserDefaults.standard.string(forKey: "name") ?? ""
+        streetAdress = UserDefaults.standard.string(forKey: "streetAddress") ?? ""
+        city = UserDefaults.standard.string(forKey: "city") ?? ""
+        zip = UserDefaults.standard.string(forKey: "zip") ?? ""
     }
 }
 

@@ -13,6 +13,8 @@ struct CheckoutView: View {
     @State private var confirmationMessage = ""
     @State private var showingConfirmation = false
     
+    @State private var showingError = false //Reto 2
+    
     var body: some View {
         ScrollView {
             VStack{
@@ -25,10 +27,10 @@ struct CheckoutView: View {
                 }
                 .frame(height: 233)
                 
-                Text("Your coast is \(order.cost, format: .currency(code: "USD"))")
+                Text("El precio es de \(order.cost, format: .currency(code: "EUR"))")
                     .font(.title)
                 
-                Button("Place Order") {
+                Button("Ordenar pedido") {
                     Task {
                         await placeHolder()
                     }
@@ -36,10 +38,16 @@ struct CheckoutView: View {
                 .padding()
             }
         }
-        .navigationTitle("CheckOut")
+        .navigationTitle("Confirmación")
         .navigationBarTitleDisplayMode(.inline)
         .scrollBounceBehavior(.basedOnSize)
         .alert("Thank you!", isPresented: $showingConfirmation) {
+            Button("OK") { }
+        } message: {
+            Text(confirmationMessage)
+        }
+        //Reto 2
+        .alert("Error", isPresented: $showingError) {
             Button("OK") { }
         } message: {
             Text(confirmationMessage)
@@ -60,10 +68,14 @@ struct CheckoutView: View {
         do {
             let (data, _) = try await URLSession.shared.upload(for: request, from: encoded)
             let decodedOrder = try JSONDecoder().decode(Order.self, from: data)
-            confirmationMessage = "Your order for \(decodedOrder.quantity)x \(Order.types[decodedOrder.type].lowercased()) cupcakes is on its way!"
+            confirmationMessage = "Tu pedido de \(decodedOrder.quantity)x \(Order.types[decodedOrder.type].lowercased()) pasteles está en camino!"
             showingConfirmation = true
         } catch {
-            print("Checkout failed: \(error.localizedDescription)")
+            print("Error en el pedido: \(error.localizedDescription)")
+            
+            //Reto 2
+            confirmationMessage = "Ha ocurrido un error de conexión, por favor, inténalo de nuevo"
+            showingError = true
         }
     }
 }

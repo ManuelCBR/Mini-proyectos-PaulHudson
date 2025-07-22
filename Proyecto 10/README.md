@@ -4,7 +4,7 @@ Aplicación que que simula pedidos de cupcakes para poder aprender a enviar y re
 
 ## 📱 Funcionalidades
 ➡️ La app permite "comprar pastelitos" a domicilio:  
-1. El usuario podrá elegir el tipo entre vanilla, fresa, chocolate o arcoíris.  
+1. El usuario podrá elegir el sabor entre vanilla, fresa, chocolate o arcoíris.  
 2. Se podrá elegir simple, o con extras.  
 3. Si se elige con extras, podrás añadir helado y topping
 
@@ -34,8 +34,20 @@ Aplicación que que simula pedidos de cupcakes para poder aprender a enviar y re
 
 Y el resultado: ⬇️  
 
-⚠️ *IN PROGRESS* ⚠️
+⚠️ En este caso, la última imagen muestra una alerta de error en vez de la confirmación del pedido ya que ésta última no varía, y el error es lo que se pide en el punto número 2 ⚠️  
 
+<p align="center">
+
+  <img src="RetoCupcakeCorner1.png" width="203">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="RetoCupcakeCorner2.png" width="203">  
+
+</p>
+<p align="center">
+
+  <img src="RetoCupcakeCorner3.png" width="203">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="RetoCupcakeCorner4.png" width="203">
 
 ## 📌 Créditos
 ‼️ Este proyecto es parte del programa [100 días de SwiftUI](https://www.hackingwithswift.com/100/swiftui) de Paul Hudson, en la plataforma [Hacking with Swift](https://www.hackingwithswift.com) ‼️

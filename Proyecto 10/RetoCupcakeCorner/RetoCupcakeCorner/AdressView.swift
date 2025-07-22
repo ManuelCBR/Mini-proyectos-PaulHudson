@@ -13,20 +13,21 @@ struct AdressView: View {
     var body: some View {
         Form {
             Section {
-                TextField("Name", text: $order.name)
-                TextField("Street Adress", text: $order.streetAdress)
-                TextField("City", text: $order.city)
-                TextField("Zip", text: $order.zip)
+                TextField("Nombre", text: $order.name)
+                TextField("Calle", text: $order.streetAdress)
+                TextField("Ciudad", text: $order.city)
+                TextField("Código Postal", text: $order.zip)
             }
             
             Section {
-                NavigationLink ("Check out") {
+                NavigationLink ("Hacer pedido") {
                     CheckoutView(order: order)
                 }
             }
             .disabled(order.hasValidAddress == false)
         }
-        .navigationTitle("Delivery details")
+        .onAppear{order.loadUserOrder()} //Reto 3
+        .navigationTitle("Detalles de entrega")
         .navigationBarTitleDisplayMode(.inline)
     }
 }
